@@ -1,0 +1,180 @@
+{
+  "name": "setupmutedrole",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "iNywU",
+  "actions": [
+    {
+      "roleName": "Muted",
+      "hoist": "false",
+      "mentionable": "false",
+      "color": "#000001",
+      "position": "",
+      "storage": "2",
+      "varName": "mutedrole",
+      "name": "Create Role"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "`@Muted` has been created. Now establishing permissions.\n**NOTE: This may take a while depending on how many channels you have**",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "time": "5",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "server": "0",
+      "varName": "",
+      "info": "13",
+      "storage": "1",
+      "varName2": "channellist",
+      "name": "Store Server Info"
+    },
+    {
+      "info": "1",
+      "find": "Muted",
+      "storage": "1",
+      "varName": "mutedrole2",
+      "name": "Find Role"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "CREATE_INSTANT_INVITE",
+      "state": "2",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "MANAGE_PERMISSIONS",
+      "state": "2",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "MANAGE_CHANNELS",
+      "state": "2",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "MANAGE_WEBHOOKS",
+      "state": "2",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "READ_MESSAGES",
+      "state": "0",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "SEND_MESSAGES",
+      "state": "2",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "SEND_TTS_MESSAGES",
+      "state": "2",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "MANAGE_MESSAGES",
+      "state": "2",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "EMBED_LINKS",
+      "state": "2",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "ATTACH_FILES",
+      "state": "2",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "READ_MESSAGE_HISTORY",
+      "state": "0",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "MENTION_EVERYONE",
+      "state": "2",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "USE_EXTERNAL_EMOJIS",
+      "state": "2",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "3",
+      "varName": "channellist",
+      "role": "3",
+      "varName2": "mutedrole2",
+      "permission": "ADD_REACTIONS",
+      "state": "2",
+      "name": "Set Role Channel Perms"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "Permissions have been set for `@Muted`! You may now used the `?Mute` command.",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ]
+}
