@@ -11,7 +11,7 @@ Instructions
 4 !captcha <@user>
 5 !whowouldwin [@user] [@user] !! 2 Different users !!
 6 !changemymind [TEXT]
-7 !jpegavatar [@user]
+7 !jpeg [@user]
 8 !jpegurl [URL]
 9 !lolice <@user>
 10 !kannagen [TEXT]
