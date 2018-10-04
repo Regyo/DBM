@@ -20,3 +20,13 @@ Instructions
 13 !awooifyurl [URL]
 14 !awooify <@user>
 15 !trap [@user]
+16 !nichijou [text]
+17 !trumptweet [text]
+18 !tweet [@user] [text]
+19 !kidnap [@user]
+20 !deepfry <@user>
+21 !deepfryurl [url]
+22 !blurpify <@user>
+23 !blurpifyurl [url]
+24 !magik <@user>
+25 !magikurl [url]
