@@ -1,0 +1,172 @@
+{
+  "name": "adddev",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "KUjdR",
+  "actions": [
+    {
+      "member": "1",
+      "varName": "",
+      "info": "6",
+      "varName2": "",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "10",
+      "name": "Check If Member"
+    },
+    {
+      "condition": "0",
+      "comparison": "2",
+      "value": "0",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "14",
+      "name": "Check Parameters"
+    },
+    {
+      "info": "2",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "user",
+      "name": "Store Command Params"
+    },
+    {
+      "member": "2",
+      "varName": "user",
+      "dataName": "dev",
+      "comparison": "1",
+      "value": "true",
+      "iftrue": "2",
+      "iftrueVal": "18",
+      "iffalse": "0",
+      "iffalseVal": "18",
+      "name": "Check Member Data"
+    },
+    {
+      "member": "2",
+      "varName": "user",
+      "dataName": "dev",
+      "changeType": "0",
+      "value": "true",
+      "name": "Control Member Data"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "isnowbotdev",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "isnowbotdev",
+      "message": "<:RegyoYes:490524360428355625> ${tempVars(\"user\")} is now Developer.",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "isnowbotdev",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "noownerembed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "noownerembed",
+      "message": "<:RegyoNo:490524359996211203> Missing permissions:\n`Bot Owner`",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "noownerembed",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "noparamsembed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "noparamsembed",
+      "message": "<:RegyoNo:490524359996211203> Please mention a user.",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "noparamsembed",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "isalreadydevembed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "isalreadydevembed",
+      "message": "<:RegyoNo:490524359996211203> This user is already a Developer.",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "isalreadydevembed",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    }
+  ]
+}
