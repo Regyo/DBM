@@ -1,0 +1,891 @@
+{
+  "name": "perms",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "cxrTW",
+  "actions": [
+    {
+      "condition": "0",
+      "comparison": "2",
+      "value": "0",
+      "iftrue": "0",
+      "iftrueVal": "2",
+      "iffalse": "2",
+      "iffalseVal": "5",
+      "name": "Check Parameters"
+    },
+    {
+      "info": "2",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "mem",
+      "name": "Store Command Params"
+    },
+    {
+      "call": "8",
+      "name": "Jump to Action"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "info": "0",
+      "storage": "1",
+      "varName2": "mem",
+      "name": "Store Member Info"
+    },
+    {
+      "call": "8",
+      "name": "Jump to Action"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "info": "7",
+      "storage": "1",
+      "varName2": "tag",
+      "name": "Store Member Things"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "info": "16",
+      "storage": "1",
+      "varName2": "avatar",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "ADMINISTRATOR",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "admin",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "admin",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "VIEW_AUDIT_LOG",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "audit",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "audit",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "CREATE_INSTANT_INVITE",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "instantinv",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "instantinv",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "KICK_MEMBERS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "kick",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "kick",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "BAN_MEMBERS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "ban",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "ban",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "MANAGE_CHANNELS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "managechan",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "managechan",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "MANAGE_GUILD",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "guild",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "guild",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "ADD_REACTIONS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "addreact",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "addreact",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "READ_MESSAGES",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "read",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "read",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "SEND_MESSAGES",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "send",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "send",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "SEND_TTS_MESSAGES",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "tts",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "tts",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "MANAGE_MESSAGES",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "managemes",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "managemes",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "EMBED_LINKS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "ATTACH_FILES",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "attach",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "attach",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "READ_MESSAGE_HISTORY",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "msghist",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "msghist",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "MENTION_EVERYONE",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "everyone",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "everyone",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "USE_EXTERNAL_EMOJIS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "ext",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "ext",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "CONNECT",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "connect",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "connect",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "SPEAK",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "speak",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "speak",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "MUTE_MEMBERS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "mute",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "mute",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "DEAFEN_MEMBERS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "deafen",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "deafen",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "MOVE_MEMBERS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "move",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "move",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "USE_VAD",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "vad",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "vad",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "CHANGE_NICKNAME",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "cn",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "cn",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "MANAGE_NICKNAMES",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "mn",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "mn",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "MANAGE_ROLES",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "roles",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "roles",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "MANAGE_WEBHOOKS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "web",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "web",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "permission": "MANAGE_EMOJIS",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "3",
+      "iffalseVal": "2",
+      "name": "Check Member Permissions"
+    },
+    {
+      "storage": "1",
+      "varName": "memoji",
+      "changeType": "0",
+      "value": "\"<:RegyoOn:486177853738844160>\"",
+      "name": "Control Variable"
+    },
+    {
+      "count": "1",
+      "name": "Skip Actions"
+    },
+    {
+      "storage": "1",
+      "varName": "memoji",
+      "changeType": "0",
+      "value": "\"<:RegyoOff:486177853654958082>\"",
+      "name": "Control Variable"
+    },
+    {
+      "title": "",
+      "author": "${tempVars(\"tag\")}",
+      "color": "",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "${tempVars(\"avatar\")}",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "embeds",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embeds",
+      "fieldName": "General Permissions",
+      "message": "- Administrator  ${tempVars(\"admin\")} \n- View Audit Logs  ${tempVars(\"audit\")} \n- Create Instant Invite  ${tempVars(\"instantinv\")} \n- Kick  ${tempVars(\"kick\")} \n- Ban  ${tempVars(\"ban\")} \n- Change Nickname  ${tempVars(\"cn\")} \n- Manage Channels  ${tempVars(\"managechan\")} \n- Manage Server  ${tempVars(\"guild\")} \n- Manage Nicknames  ${tempVars(\"mn\")} \n- Manage Roles  ${tempVars(\"roles\")} \n- Manage Emoji's  ${tempVars(\"memoji\")} \n- Manage webhooks  ${tempVars(\"web\")} ",
+      "inline": "1",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "embeds",
+      "fieldName": "Text Permissions",
+      "message": "- Read Messages  ${tempVars(\"read\")} \n- Send Messages  ${tempVars(\"send\")} \n- Send TTS Messages ${tempVars(\"tts\")} \n- Manage Messages  ${tempVars(\"managemes\")} \n- Use Embed Links  ${tempVars(\"embed\")} \n- Attach Files  ${tempVars(\"attach\")} \n- View Message History  ${tempVars(\"msghist\")} \n- Mention everyone  ${tempVars(\"everyone\")} \n- Use external emoji's  ${tempVars(\"ext\")} \n- Add reaction(s)  ${tempVars(\"addreact\")} ",
+      "inline": "1",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "embeds",
+      "fieldName": "Voice Permissions",
+      "message": "- Connect  ${tempVars(\"connect\")} \n- Speak  ${tempVars(\"speak\")} \n- Mute Members  ${tempVars(\"mute\")} \n- Deafen Members  ${tempVars(\"deafen\")} \n- Move Members  ${tempVars(\"move\")} \n- Use Voice Activity  ${tempVars(\"vad\")} ",
+      "inline": "1",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "embeds",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
